@@ -2152,6 +2152,10 @@ img {
   background-color: #ecf0f1;
   color: #999; }
 
+.bg-orig {
+  background-color: #424047 ;
+  color: #fff; }
+
 .bg-dark {
   background-color: #252428;
   color: #fff; }
