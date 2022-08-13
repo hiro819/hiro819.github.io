@@ -106,7 +106,7 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #132a46;
+  color: #2066a1;
   text-decoration: none;
   transition: all 0.3s; }
   a:hover, a:focus {
@@ -572,7 +572,8 @@ p {
     padding-bottom: 10px;
     display: inline-block;
     text-transform: uppercase;
-    color: #132a46;
+    color: #2066a1;
+    font-size: 20px;
     position: relative; }
     .c-main-nav__link::before {
       content: "";
@@ -739,7 +740,7 @@ p {
     display: inline-block;
     vertical-align: middle; }
   .c-section-heading__header {
-    margin-left: 15px;
+    margin-left: 16px;
     display: inline-block;
     vertical-align: bottom; }
 
@@ -748,6 +749,9 @@ p {
     padding-top: 5px;
     margin-bottom: 5px;
   }
+.c-section-sub_heading h3{
+  font-size: 21px;
+}
 
 
 
