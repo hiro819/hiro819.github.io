@@ -1128,7 +1128,8 @@ p {
       padding-left: 55px;
       position: relative; }
       .c-tabs__list li:before {
-        content: "\ef8f";
+        /*content: "\ef8f";*/
+        content: "\ead2";
         font-family: "icofont";
         position: absolute;
         top: 2px;
@@ -1142,6 +1143,29 @@ p {
       .c-tabs__list p{
         font-size: 16px;
       }
+
+.c-tabs__listaward {
+  list-style: none; }
+.c-tabs__listaward li {
+  margin-bottom: 5px;
+  padding-left: 55px;
+  position: relative; }
+.c-tabs__listaward li:before {
+  /*content: "\ef8f";*/
+  content: "\eace";
+  font-family: "icofont";
+  position: absolute;
+  top: 2px;
+  left: 35px;
+  color: #2066a1; }
+.c-tabs__listaward li:last-child {
+  margin-bottom: 10px; }
+.c-tabs__listaward h4{
+  font-size: 18px;
+}
+.c-tabs__listaward p{
+  font-size: 16px;
+}
   .c-tabs__header {
     margin-left: 50px;
     display: inline-block;
