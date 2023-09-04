@@ -673,22 +673,23 @@ p {
 
 .c-screen-about__image {
   display: inline-block;
-  width: 10%;
+  width: 100%;
   position: relative; }
   @media (min-width: 100px) {
     .c-screen-about__image {
-      width: calc(50% - 10px); } }
+      width: calc(100% - 10px); } }
   .c-screen-about__image span {
     display: block;
     margin-top: 100%; }
   .c-screen-about__image img {
     position: absolute;
-    top: 0px;
+    top: 10px;
     bottom: 0;
     right: 0;
-    left: 50%;
-    height: 100%;
-      border-radius: 40%;
+    left: 5%;
+    height: 70%;
+    width: 70%;
+      border-radius: 10%;
     object-fit: cover; }
 
 .c-screen-about__caption {
