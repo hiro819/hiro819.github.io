@@ -673,11 +673,11 @@ p {
 
 .c-screen-about__image {
   display: inline-block;
-  width: 100%;
+  width: 120%;
   position: relative; }
   @media (min-width: 100px) {
     .c-screen-about__image {
-      width: calc(100% - 10px); } }
+      width: calc(70% - 10px); } }
   .c-screen-about__image span {
     display: block;
     margin-top: 100%; }
@@ -686,9 +686,9 @@ p {
     top: 10px;
     bottom: 0;
     right: 0;
-    left: 5%;
-    height: 70%;
-    width: 70%;
+    left: 15%;
+    height: 90%;
+    width: 90%;
       border-radius: 10%;
     object-fit: cover; }
 
