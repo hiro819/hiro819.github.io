@@ -1122,13 +1122,13 @@ p {
           justify-content: space-between; } }
   .c-tabs__item {
     width: 100%; }
-  .c-tabs__list {
+  .c-tabs__list_pub {
     list-style: none; }
-    .c-tabs__list li {
+    .c-tabs__list_pub li {
       margin-bottom: 5px;
       padding-left: 55px;
       position: relative; }
-      .c-tabs__list li:before {
+      .c-tabs__list_pub li:before {
         /*content: "\ef8f";*/
         content: "\ead2";
         font-family: "icofont";
@@ -1136,14 +1136,39 @@ p {
         top: 2px;
         left: 35px;
         color: #2066a1; }
-      .c-tabs__list li:last-child {
+
+      .c-tabs__list_pub li:last-child {
         margin-bottom: 10px; }
-      .c-tabs__list h4{
+      .c-tabs__list_pub h4{
         font-size: 18px;
       }
-      .c-tabs__list p{
+      .c-tabs__list_pub p{
         font-size: 16px;
       }
+
+.c-tabs__list_talk {
+  list-style: none; }
+.c-tabs__list_talk li {
+  margin-bottom: 5px;
+  padding-left: 55px;
+  position: relative; }
+.c-tabs__list_talk li:before {
+  content: "\eff2";
+  /*content: "\ead2";*/
+  font-family: "icofont";
+  position: absolute;
+  top: 2px;
+  left: 35px;
+  color: #2066a1; }
+
+.c-tabs__list_talk li:last-child {
+  margin-bottom: 10px; }
+.c-tabs__list_talk h4{
+  font-size: 18px;
+}
+.c-tabs__list_talk p{
+  font-size: 16px;
+}
 
 .c-tabs__listaward {
   list-style: none; }
