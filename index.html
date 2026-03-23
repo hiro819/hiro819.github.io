@@ -84,32 +84,19 @@
     <!-- NAVIGATION -->
     <div class="c-main-header__nav-wrapper" data-menuAnimated="true">
       <nav class="c-main-nav js-main-nav">
-        <ul class="c-main-nav__list nav-fixed--is-active js-main-nav__list">
-<!--          <li class="c-main-nav__item"><a href="./index_jp.html" class="c-main-nav__link" data-navPosition="1"><span></span>日本語</a></li>-->
-<!--            <li class="c-main-nav__item"><a href="./index.html" class="c-main-nav__link" data-navPosition="3"><span></span>English</a></li>-->
-            <li class="c-main-nav__item"><a href="#section-education" class="c-main-nav__link" data-navPosition="2"><span></span></a></li>
-          <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-            <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span></span></a></li>
-
+        <ul id="site-navigation" class="c-main-nav__list nav-fixed--is-active js-main-nav__list">
+          <li class="c-main-nav__item"><a href="#section-about" class="c-main-nav__link" data-navPosition="1"><span>About</span></a></li>
+          <li class="c-main-nav__item"><a href="#section-publications" class="c-main-nav__link" data-navPosition="2"><span>Publications</span></a></li>
+          <li class="c-main-nav__item"><a href="#section-talks" class="c-main-nav__link" data-navPosition="3"><span>Talks</span></a></li>
+          <li class="c-main-nav__item"><a href="#section-activities" class="c-main-nav__link" data-navPosition="4"><span>Experience</span></a></li>
+          <li class="c-main-nav__item"><a href="#section-education" class="c-main-nav__link" data-navPosition="5"><span>Education</span></a></li>
+          <li class="c-main-nav__item"><a href="#section-award" class="c-main-nav__link" data-navPosition="6"><span>Awards</span></a></li>
         </ul>
-
+        <button type="button" class="c-main-nav__bars js-main-nav-toggle" aria-controls="site-navigation" aria-label="ナビゲーションを開閉">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </nav>
     </div>
     <!-- NAVIGATION END -->
@@ -142,7 +129,7 @@
         <p class="u-mb-10">
             <br>
           <h3 class="u-mb-10">Affiliation (所属)</h3>
-        <ul>
+        <ul class="c-profile-list c-profile-list--links">
           <li><a href="https://machine-learning.co.jp/ "> Machine Learning Solutions (MLS) Inc. </a> </li>
           <li> <a href="https://www.nlp.ecei.tohoku.ac.jp/"> Tohoku NLP Group (東北大学 自然言語処理研究グループ)</a> </li>
           <li> <a href="https://www.riken.jp/research/labs/aip/goalorient_tech/nat_lang_understand/index.html"> RIKEN AIP （理研AIP 自然言語理解チーム）</a> </li>
@@ -151,15 +138,15 @@
 
         <br>
         <h3 class="u-mb-10">Interests (専門)</h3>
-        <ul>
-        <li> Natural Language Processing (NLP)
-        <li> AI for Education （教育AI）
-        <li> Learning support system （学習支援システム）
-        <li> Large Language Model (LLM)
+        <ul class="c-profile-list">
+        <li> Natural Language Processing (NLP)</li>
+        <li> AI for Education （教育AI）</li>
+        <li> Learning support system （学習支援システム）</li>
+        <li> Large Language Model (LLM)</li>
         </ul>
           <br>
           <h3 class="u-mb-10">Contact (連絡先)</h3>
-          <ul>
+          <ul class="c-profile-list">
               <li>funayama at machine-learning.co.jp</li>
               <li>h.funayama at tohoku.ac.jp</li>
               <li>hiroaki.funayama at riken.jp</li>
@@ -182,7 +169,7 @@
 
 
   <!-- Publication -->
-  <div id="section-publication" class="o-container   wow1 fadeIn"  data-contentPosition="5">
+  <div id="section-publications" class="o-container wow1 fadeIn" data-contentPosition="2">
 
     <div class="c-section-heading">
     <!--      <svg class="c-section-heading__icon svg-icon" xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">-->
@@ -355,7 +342,7 @@
 
   </div>
 
-    <div id="section-publication" class="o-container   wow1 fadeIn"  data-contentPosition="5">
+    <div id="section-talks" class="o-container wow1 fadeIn" data-contentPosition="3">
 
         <div class="c-section-heading">
             <!--      <svg class="c-section-heading__icon svg-icon" xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">-->
@@ -396,7 +383,7 @@
     </div>
 
 <!-- Activities -->
-  <div id="section-activities" class="o-container js-main-container  wow1 fadeIn" data-contentPosition="2">
+  <div id="section-activities" class="o-container js-main-container wow1 fadeIn" data-contentPosition="4">
     <div class="c-section-heading">
 <!--      <svg class="c-section-heading__icon svg-icon" xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">-->
 <!--        <rect class="svg-icon__border" x="0.5" y="0.5" width="90" height="90"/>-->
@@ -482,7 +469,7 @@
     </div>
   </div>
   <!-- EDUCATION -->
-  <div id="section-education" class="o-container js-main-container  wow1 fadeIn" data-contentPosition="2">
+  <div id="section-education" class="o-container js-main-container wow1 fadeIn" data-contentPosition="5">
     <div class="c-section-heading">
 <!--      <svg class="c-section-heading__icon svg-icon" xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">-->
 <!--        <rect class="svg-icon__border" x="0.5" y="0.5" width="90" height="90"/>-->
@@ -528,7 +515,7 @@
                 </figure> -->
       </div>
     </div>
-      <div id="section-award" class="o-container js-main-container  wow1 fadeIn" data-contentPosition="2">
+      <div id="section-award" class="o-container js-main-container wow1 fadeIn" data-contentPosition="6">
           <div class="c-section-heading">
               <!--      <svg class="c-section-heading__icon svg-icon" xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">-->
               <!--        <rect class="svg-icon__border" x="0.5" y="0.5" width="90" height="90"/>-->

@@ -699,6 +699,30 @@ p {
   font-size: 0.75rem;
   line-height: 1.66666; }
 
+.c-profile-list {
+  list-style: none;
+  margin: 0 0 0 12px;
+  padding: 0; }
+  .c-profile-list li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 22px;
+    font-size: 1rem;
+    line-height: 1.55; }
+  .c-profile-list li:last-child {
+    margin-bottom: 0; }
+  .c-profile-list li::before {
+    content: "";
+    position: absolute;
+    top: 0.68em;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(19, 42, 70, 0.7); }
+  .c-profile-list--links li::before {
+    background: #2066a1; }
+
 .c-screen-about--fullwidth .c-screen-about__header {
   color: #ffffff; }
 
@@ -1191,6 +1215,181 @@ p {
 }
 .c-tabs__listaward p{
   font-size: 16px;
+}
+
+@media (max-width: 899px) {
+  .c-main-header__nav-wrapper {
+    padding-top: 16px;
+    padding-bottom: 12px; }
+
+  .c-main-nav {
+    min-height: 44px; }
+
+  .c-main-nav__list {
+    top: 52px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: calc(100vh - 68px);
+    padding-top: 8px;
+    padding-bottom: 12px;
+    border-radius: 18px;
+    overflow-y: auto;
+    box-shadow: 0 18px 45px rgba(19, 42, 70, 0.14); }
+
+  .c-main-nav__item {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(19, 42, 70, 0.08); }
+
+  .c-main-nav__item:first-child {
+    border-top: 0; }
+
+  .c-main-nav__link {
+    display: block;
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 16px;
+    line-height: 1.4;
+    text-transform: none;
+    color: #132a46; }
+
+  .c-main-nav__link::before {
+    display: none; }
+
+  .c-main-nav__bars {
+    top: 4px;
+    right: 8px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    padding: 0;
+    background: transparent; }
+}
+
+@media (max-width: 767px) {
+  .o-container {
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .o-screen-about {
+    gap: 20px;
+    justify-content: flex-start; }
+
+  .c-screen-about__image {
+    display: block;
+    width: min(100%, 280px);
+    margin: 0 auto; }
+
+  .c-screen-about__image span {
+    display: none; }
+
+  .c-screen-about__image img {
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    object-fit: initial; }
+
+  .c-screen-about__image figcaption {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.5; }
+
+  .u-mb-5 {
+    font-size: 32px;
+    line-height: 1.1; }
+
+  .c-profile-list li {
+    margin-bottom: 12px;
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 1.6; }
+
+  .c-profile-list li::before {
+    top: 0.72em;
+    width: 9px;
+    height: 9px; }
+
+  .c-section-heading {
+    margin-top: 36px;
+    margin-bottom: 14px; }
+
+  .c-section-heading__header {
+    display: block;
+    margin-left: 0; }
+
+  .c-section-sub_heading {
+    margin-top: 12px;
+    margin-bottom: 14px; }
+
+  .c-section-sub_heading h3 {
+    font-size: 24px;
+    line-height: 1.3; }
+
+  .c-tabs__list_pub li,
+  .c-tabs__list_talk li,
+  .c-tabs__listaward li {
+    margin-bottom: 20px;
+    padding-left: 28px; }
+
+  .c-tabs__list_pub li:before,
+  .c-tabs__list_talk li:before,
+  .c-tabs__listaward li:before {
+    top: 4px;
+    left: 0; }
+
+  .c-tabs__list_pub h4,
+  .c-tabs__list_talk h4,
+  .c-tabs__listaward h4 {
+    font-size: 24px;
+    line-height: 1.35;
+    overflow-wrap: break-word; }
+
+  .c-tabs__list_pub p,
+  .c-tabs__list_talk p,
+  .c-tabs__listaward p {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-wrap: break-word; }
+
+  .c-timeline__item {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 28px; }
+
+  .c-timeline__header {
+    display: block; }
+
+  .c-timeline__time {
+    position: static;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17px;
+    line-height: 1.4; }
+
+  .c-timeline__heading {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.45;
+    overflow-wrap: break-word; }
+
+  .c-timeline__body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-wrap: break-word; }
+
+  .c-timeline__dot,
+  .c-timeline__line {
+    display: none; }
 }
   .c-tabs__header {
     margin-left: 50px;
