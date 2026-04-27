@@ -399,9 +399,9 @@ img {
 
 .contact-list li span {
   color: var(--muted);
-  margin-right: 10px;
+  margin-right: 14px;
   display: inline-block;
-  min-width: 70px;
+  min-width: 110px;
 }
 
 .hero__portrait {
