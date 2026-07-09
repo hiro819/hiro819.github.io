@@ -359,11 +359,39 @@ img {
   margin-bottom: 4px;
 }
 
+.affil-list--affiliations {
+  display: grid;
+  gap: 7px;
+}
+
+.affil-list--affiliations li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  column-gap: 24px;
+  align-items: baseline;
+  margin-bottom: 0;
+  line-height: 1.35;
+}
+
+.affil-list__org {
+  min-width: 0;
+}
+
 .affil-list li small {
   font-family: var(--jp);
   color: var(--muted);
   font-size: 15px;
   margin-left: 4px;
+}
+
+.affil-list__role {
+  justify-self: end;
+  font-family: var(--jp);
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--muted);
+  text-align: right;
+  white-space: nowrap;
 }
 
 .tag-list {
@@ -971,6 +999,14 @@ img {
   .hero__meta dd {
     padding-top: 4px;
     border-top: none;
+  }
+
+  .affil-list--affiliations li {
+    column-gap: 12px;
+  }
+
+  .affil-list__role {
+    font-size: 13px;
   }
 
   .news-list li {
